@@ -1,0 +1,30 @@
+@use "../util" as *
+
+main
+    @include flex(center)
+    min-height: 100vh
+
+section
+    @include container-a
+
+.card
+    @include padding
+    @include radius
+    background-color: var(--color-bg-card)
+    max-width: 350px
+    text-align: center
+
+    img
+        @include radius(.8rem)
+        width: 100%
+
+    h1, p
+        margin: 0
+
+    p
+        @include padding-x
+        margin-bottom: 1.5rem
+
+    h1
+        @include padding
+        margin-top: .5rem

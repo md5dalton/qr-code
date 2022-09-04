@@ -1,0 +1,13 @@
+// https://medium.com/codeartisan/breakpoints-and-media-queries-in-scss-46e8f551e2f2
+
+// Small tablets and large smartphones (landscape view)
+$breakpoint-mobile: 576px
+
+@mixin mobile-only
+   @media (max-width: #{$breakpoint-mobile})
+       @content
+
+// Medium devices
+@mixin tablet
+   @media (min-width: #{$breakpoint-mobile})
+       @content
