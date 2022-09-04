@@ -17,8 +17,8 @@ Your challenge is to build out this QR code component and get it looking as clos
 
 ### Links
 
-<!-- - Repository URL: [Github](https://github.com/md5dalton/product-preview) -->
-<!-- - Live Site URL: [Vercel](https://product-preview-seven.vercel.app) -->
+- Repository URL: [Github](https://github.com/md5dalton/qr-code)
+- Live Site URL: [Vercel](https://qr-code-snowy-seven.vercel.app)
 <!-- - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges) -->
 
 ## My process
